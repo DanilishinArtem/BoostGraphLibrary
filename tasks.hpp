@@ -105,7 +105,8 @@ void bfs(Graph_VE &g, std::string name, bool write_to_file)
 }
 
 // https://theboostcpplibraries.com/boost.graph-algorithms
-
+// https://habr.com/ru/articles/471652/
+// https://www.boost.org/doc/libs/1_82_0/libs/graph/doc/index.html
 
 #endif
 
