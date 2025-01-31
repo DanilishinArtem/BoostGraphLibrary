@@ -15,13 +15,17 @@ int main(){
     //     Graph g(10);
     //     Test(&make_adjacencies, g, "Second", true);
     // }
+    // {
+    //     Graph_VE g(5);
+    //     Test(&make_adjacencies_vertexes, g, "Adjacencies_vertexes", true);
+    // }
+    // {
+    //     Graph_VE g(5);
+    //     Test(&bfs, g, "BFS", true);
+    // }
     {
-        Graph_VE g(5);
-        Test(&make_adjacencies_vertexes, g, "Adjacencies_vertexes", true);
-    }
-    {
-        Graph_VE g(5);
-        Test(&bfs, g, "BFS", false);
+        Graph_VE_d g(5);
+        Test(&Dijkstra, g, "Dijkstra", true);
     }
 }
 
